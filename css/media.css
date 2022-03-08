@@ -1,0 +1,134 @@
+/*---------------------- Media Queries-------------- */
+
+/* 992- 1200px */
+@media screen and (max-width: 1200px) {
+}
+/* 768-992px */
+@media screen and (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+  .main-content {
+    margin-left: 0;
+  }
+  .offer img {
+    margin-right: 0;
+    width: 50%;
+  }
+  .reasons {
+    margin: 0 auto;
+    display: block;
+    width: 42%;
+  }
+  .reasons__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .why-best__know {
+    width: 45%;
+  }
+  .why-best__cleaner {
+    margin-right: 0;
+    width: 45%;
+  }
+}
+/* 576-768px */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 520px;
+  }
+  .nav {
+    justify-content: center;
+  }
+  .phone, .logo {
+    position: absolute;
+    top: 2%;
+  }
+  .phone {
+    right: 6%;
+  }
+  .logo {
+    left: 6%;
+  }
+  .menu {
+    margin-left: 0;
+  }
+  .reasons {
+    width: 57%;
+  }
+  .why-best {
+    display: block;
+  }
+  .why-best__btn, .why-best__cleaner, .why-best__know {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+/* 320-576px  */
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .header {
+    padding: 50px 0 25px;
+  }
+  .nav {
+    margin-bottom: 0;
+  }
+  .menu {
+    width: 95%;
+  }
+  .phone {
+    font-size: 12px;
+    top: 2.5%;
+  }
+  .offer {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .main-content__title {
+    font-size: 24px;
+  }
+  .main-content__title:after {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .main-content__text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .offer img {
+    width: 80%;
+  }
+  .main-content__btn {
+    margin: 0 auto;
+  }
+  .button {
+    padding: 10px 20px;
+  }
+  .trust {
+    padding: 25px 0 13px;
+  }
+  .trust h2 {
+    margin-bottom: 20px;
+  }
+  .reasons {
+    width: 100%;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .best {
+    padding: 13px 0 25px;
+  }
+  .why-best {
+    margin-top: 20px;
+  }
+  .why-best__title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .footer {
+    padding: 30px 0;
+  }
+}

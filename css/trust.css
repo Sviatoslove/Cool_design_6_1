@@ -1,0 +1,35 @@
+
+/* --------------------------Trust Section---------------------- */
+
+.trust  {
+  padding: 93px 0 65px;
+}
+.trust h2 {
+  margin-bottom: 77px;
+}
+.reasons  {
+}
+.reasons__item {
+  display: flex;
+  align-items: center;
+  margin-top: -2px;
+}
+.reasons__icon  {
+  width: 65px;
+  height: 65px;
+  background: #E82C9F url(../img/money.svg) no-repeat center center;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 11px 11px 32px rgba(0, 0, 0, 0.21);
+}
+.reasons__content {
+  margin-left:21px;
+}
+.reasons__title {
+  text-transform: none;
+  color: #E82C9F;
+}
+.reasons__text  {
+  color: #B0B2B3;
+  margin-bottom: 0;
+}
